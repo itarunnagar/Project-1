@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Header Section Styling */
+header {
+  margin-top: 25px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.logo img {
+  width: 125px;
+}
+.utility {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  font-size: 17px;
+  color: #ffc233;
+}
+.utility li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn {
+  background-color: #ff505f;
+  color: white;
+  font-size: 20px;
+  padding: 5px 33px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+/* Hero Section or Main Section Start */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 85px;
+}
+.heading {
+  color: #ffc233;
+  line-height: 110px;
+  font-size: 95px;
+  font-family: "Dela Gothic One", cursive;
+  
+}
+.big-btn {
+    background-color: #ff505f;
+    color: white;
+    font-size: 25px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  .big-btn:hover{
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+      cursor: pointer;
+  
+  }
+
+/* LAst and Fixed Image */
+.fixed {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
